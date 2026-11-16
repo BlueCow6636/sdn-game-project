@@ -1,0 +1,22 @@
+[BG] waiting 10.0s before starting...
+[BG] UDP at 20M to 10.0.0.101:5201 for 10s
+[BG] running: iperf3 -c 10.0.0.101 -p 5201 -t 10 -u -b 20M
+Connecting to host 10.0.0.101, port 5201
+[  5] local 10.0.0.4 port 35067 connected to 10.0.0.101 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.28   sec  1.94 MBytes  12.7 Mbits/sec  1403  
+[  5]   1.28-2.00   sec  2.83 MBytes  32.8 Mbits/sec  2051  
+[  5]   2.00-3.00   sec  2.39 MBytes  20.0 Mbits/sec  1728  
+[  5]   3.00-4.00   sec  2.39 MBytes  20.0 Mbits/sec  1729  
+[  5]   4.00-5.00   sec  2.38 MBytes  20.0 Mbits/sec  1723  
+[  5]   5.00-6.00   sec  2.39 MBytes  20.0 Mbits/sec  1729  
+[  5]   6.00-7.00   sec  2.38 MBytes  20.0 Mbits/sec  1725  
+[  5]   7.00-8.00   sec  2.39 MBytes  20.0 Mbits/sec  1729  
+[  5]   8.00-9.00   sec  2.38 MBytes  20.0 Mbits/sec  1724  
+[  5]   9.00-10.00  sec  2.38 MBytes  19.9 Mbits/sec  1725  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec  23.8 MBytes  20.0 Mbits/sec  0.000 ms  0/17266 (0%)  sender
+[  5]   0.00-10.27  sec  10.2 MBytes  8.33 Mbits/sec  3.474 ms  9879/17266 (57%)  receiver
+
+iperf Done.

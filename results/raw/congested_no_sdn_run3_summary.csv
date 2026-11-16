@@ -1,0 +1,4 @@
+player,received,lost,loss_pct,lat_min_ms,lat_avg_ms,lat_median_ms,lat_max_ms,jitter_min_ms,jitter_avg_ms,jitter_max_ms,throughput_kbps
+P1,468,132,22.0,12.601,24.912,14.078,338.746,0.0,5.704,267.551,14.54
+P2,477,123,20.5,12.458,26.591,14.216,338.889,0.001,6.53,266.601,14.81
+P3,494,106,17.67,12.356,27.071,14.191,338.241,0.0,5.151,268.06,15.34

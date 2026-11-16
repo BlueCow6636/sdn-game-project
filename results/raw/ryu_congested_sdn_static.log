@@ -1,0 +1,18 @@
+loading app controller/sdn_controller.py
+loading app ryu.controller.ofp_handler
+instantiating app controller/sdn_controller.py of GameSDNController
+[MODE] on (game queue 1, link 10.0 Mbps, poll 0.50s, on>=80%, off<50% for 4 polls)
+instantiating app ryu.controller.ofp_handler of OFPHandler
+[CTRL] listening for game-server events on UDP 9999
+[SWITCH JOINED] DPID=1: rules installed (queue prioritization ON)
+[MONITOR] bottleneck s1-eth5 is OpenFlow port 5 on DPID 1 (capacity 10.0 Mbps)
+[SWITCH JOINED] DPID=2: rules installed (queue prioritization ON)
+[APP EVENT] P1 registered (10.0.0.1) -> priority-200 rules installed on 2 switches
+[APP EVENT] P2 registered (10.0.0.2) -> priority-200 rules installed on 2 switches
+[APP EVENT] P3 registered (10.0.0.3) -> priority-200 rules installed on 2 switches
+[APP EVENT] P2 registered (10.0.0.2) -> priority-200 rules installed on 2 switches
+[APP EVENT] P3 registered (10.0.0.3) -> priority-200 rules installed on 2 switches
+[APP EVENT] P1 registered (10.0.0.1) -> priority-200 rules installed on 2 switches
+[APP EVENT] P3 registered (10.0.0.3) -> priority-200 rules installed on 2 switches
+[APP EVENT] P1 registered (10.0.0.1) -> priority-200 rules installed on 2 switches
+[APP EVENT] P2 registered (10.0.0.2) -> priority-200 rules installed on 2 switches

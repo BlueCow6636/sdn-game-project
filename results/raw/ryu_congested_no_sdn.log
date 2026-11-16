@@ -1,0 +1,45 @@
+loading app controller/sdn_controller.py
+loading app ryu.controller.ofp_handler
+instantiating app controller/sdn_controller.py of GameSDNController
+[MODE] off (game queue 1, link 10.0 Mbps, poll 0.50s, on>=80%, off<50% for 4 polls)
+instantiating app ryu.controller.ofp_handler of OFPHandler
+[CTRL] listening for game-server events on UDP 9999
+[SWITCH JOINED] DPID=1: rules installed (queue prioritization OFF)
+[MONITOR] bottleneck s1-eth5 is OpenFlow port 5 on DPID 1 (capacity 10.0 Mbps)
+[SWITCH JOINED] DPID=2: rules installed (queue prioritization OFF)
+[APP EVENT] P2 registered (10.0.0.2) -> priority-200 rules installed on 2 switches
+[APP EVENT] P1 registered (10.0.0.1) -> priority-200 rules installed on 2 switches
+[APP EVENT] P3 registered (10.0.0.3) -> priority-200 rules installed on 2 switches
+[APP EVENT] LOSS ALERT P3: 40.8% loss (alert #1)
+[APP EVENT] LOSS ALERT P2: 40.8% loss (alert #1)
+[APP EVENT] LOSS ALERT P1: 40.4% loss (alert #1)
+[APP EVENT] LOSS ALERT P2: 62.6% loss (alert #2)
+[APP EVENT] LOSS ALERT P1: 62.0% loss (alert #2)
+[APP EVENT] LOSS ALERT P3: 57.0% loss (alert #2)
+[APP EVENT] LOSS ALERT P2: 25.2% loss (alert #3)
+[APP EVENT] LOSS ALERT P1: 21.0% loss (alert #3)
+[APP EVENT] LOSS ALERT P3: 22.8% loss (alert #3)
+[APP EVENT] P1 registered (10.0.0.1) -> priority-200 rules installed on 2 switches
+[APP EVENT] P3 registered (10.0.0.3) -> priority-200 rules installed on 2 switches
+[APP EVENT] P2 registered (10.0.0.2) -> priority-200 rules installed on 2 switches
+[APP EVENT] LOSS ALERT P1: 45.0% loss (alert #4)
+[APP EVENT] LOSS ALERT P3: 39.2% loss (alert #4)
+[APP EVENT] LOSS ALERT P2: 35.7% loss (alert #4)
+[APP EVENT] LOSS ALERT P1: 67.3% loss (alert #5)
+[APP EVENT] LOSS ALERT P3: 60.8% loss (alert #5)
+[APP EVENT] LOSS ALERT P2: 53.5% loss (alert #5)
+[APP EVENT] LOSS ALERT P1: 19.8% loss (alert #6)
+[APP EVENT] LOSS ALERT P3: 18.6% loss (alert #6)
+[APP EVENT] LOSS ALERT P2: 17.1% loss (alert #6)
+[APP EVENT] P1 registered (10.0.0.1) -> priority-200 rules installed on 2 switches
+[APP EVENT] P3 registered (10.0.0.3) -> priority-200 rules installed on 2 switches
+[APP EVENT] P2 registered (10.0.0.2) -> priority-200 rules installed on 2 switches
+[APP EVENT] LOSS ALERT P1: 40.6% loss (alert #7)
+[APP EVENT] LOSS ALERT P3: 41.2% loss (alert #7)
+[APP EVENT] LOSS ALERT P2: 45.5% loss (alert #7)
+[APP EVENT] LOSS ALERT P1: 69.0% loss (alert #8)
+[APP EVENT] LOSS ALERT P3: 50.5% loss (alert #8)
+[APP EVENT] LOSS ALERT P2: 63.4% loss (alert #8)
+[APP EVENT] LOSS ALERT P1: 22.9% loss (alert #9)
+[APP EVENT] LOSS ALERT P3: 14.6% loss (alert #9)
+[APP EVENT] LOSS ALERT P2: 13.9% loss (alert #9)

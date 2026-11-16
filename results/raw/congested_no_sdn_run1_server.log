@@ -1,0 +1,42 @@
+[SERVER] Running on UDP 10.0.0.100:5000
+[SERVER] Notifying controller at 10.0.0.200:9999
+[REGISTRATION] P2 from 10.0.0.2:52729
+[REGISTRATION] P1 from 10.0.0.1:55055
+[REGISTRATION] P3 from 10.0.0.3:57084
+
+--- [SERVER TRAFFIC METRICS] ---
+P2 | recv 70 | lost 0 | loss 0.00% | last window 0.00%
+P1 | recv 69 | lost 0 | loss 0.00% | last window 0.00%
+P3 | recv 69 | lost 0 | loss 0.00% | last window 0.00%
+
+--- [SERVER TRAFFIC METRICS] ---
+P2 | recv 170 | lost 0 | loss 0.00% | last window 0.00%
+P1 | recv 170 | lost 0 | loss 0.00% | last window 0.00%
+P3 | recv 170 | lost 0 | loss 0.00% | last window 0.00%
+
+--- [SERVER TRAFFIC METRICS] ---
+P2 | recv 228 | lost 40 | loss 14.93% | last window 40.82%
+P1 | recv 229 | lost 40 | loss 14.87% | last window 40.40%
+P3 | recv 228 | lost 40 | loss 14.93% | last window 40.82%
+
+--- [SERVER TRAFFIC METRICS] ---
+P2 | recv 265 | lost 102 | loss 27.79% | last window 62.63%
+P1 | recv 267 | lost 102 | loss 27.64% | last window 62.00%
+P3 | recv 271 | lost 97 | loss 26.36% | last window 57.00%
+
+--- [SERVER TRAFFIC METRICS] ---
+P2 | recv 342 | lost 128 | loss 27.23% | last window 25.24%
+P1 | recv 346 | lost 123 | loss 26.23% | last window 21.00%
+P3 | recv 349 | lost 120 | loss 25.59% | last window 22.77%
+
+--- [SERVER TRAFFIC METRICS] ---
+P2 | recv 450 | lost 128 | loss 22.15% | last window 0.00%
+P1 | recv 456 | lost 123 | loss 21.24% | last window 0.00%
+P3 | recv 458 | lost 120 | loss 20.76% | last window 0.00%
+
+[SERVER] Shutting down.
+
+=== FINAL SUMMARY ===
+{'player': 'P1', 'received': 477, 'lost': 123, 'loss_pct': 20.5, 'lat_min_ms': 12.413, 'lat_avg_ms': 28.569, 'lat_median_ms': 14.184, 'lat_max_ms': 458.877, 'jitter_min_ms': 0.005, 'jitter_avg_ms': 11.044, 'jitter_max_ms': 443.155, 'throughput_kbps': 14.82}
+{'player': 'P2', 'received': 472, 'lost': 128, 'loss_pct': 21.33, 'lat_min_ms': 12.579, 'lat_avg_ms': 27.591, 'lat_median_ms': 14.235, 'lat_max_ms': 454.51, 'jitter_min_ms': 0.016, 'jitter_avg_ms': 9.914, 'jitter_max_ms': 439.019, 'throughput_kbps': 14.65}
+{'player': 'P3', 'received': 480, 'lost': 120, 'loss_pct': 20.0, 'lat_min_ms': 12.48, 'lat_avg_ms': 28.312, 'lat_median_ms': 14.092, 'lat_max_ms': 457.211, 'jitter_min_ms': 0.005, 'jitter_avg_ms': 10.165, 'jitter_max_ms': 443.737, 'throughput_kbps': 14.92}

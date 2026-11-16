@@ -1,0 +1,42 @@
+[SERVER] Running on UDP 10.0.0.100:5000
+[SERVER] Notifying controller at 10.0.0.200:9999
+[REGISTRATION] P2 from 10.0.0.2:57565
+[REGISTRATION] P3 from 10.0.0.3:53170
+[REGISTRATION] P1 from 10.0.0.1:53160
+
+--- [SERVER TRAFFIC METRICS] ---
+P2 | recv 70 | lost 0 | loss 0.00% | last window 0.00%
+P3 | recv 69 | lost 0 | loss 0.00% | last window 0.00%
+P1 | recv 69 | lost 0 | loss 0.00% | last window 0.00%
+
+--- [SERVER TRAFFIC METRICS] ---
+P2 | recv 170 | lost 0 | loss 0.00% | last window 0.00%
+P3 | recv 169 | lost 0 | loss 0.00% | last window 0.00%
+P1 | recv 169 | lost 0 | loss 0.00% | last window 0.00%
+
+--- [SERVER TRAFFIC METRICS] ---
+P2 | recv 263 | lost 9 | loss 3.31% | last window 8.82%
+P3 | recv 264 | lost 6 | loss 2.22% | last window 5.94%
+P1 | recv 260 | lost 11 | loss 4.06% | last window 10.78%
+
+--- [SERVER TRAFFIC METRICS] ---
+P2 | recv 363 | lost 9 | loss 2.42% | last window 0.00%
+P3 | recv 365 | lost 6 | loss 1.62% | last window 0.00%
+P1 | recv 361 | lost 11 | loss 2.96% | last window 0.00%
+
+--- [SERVER TRAFFIC METRICS] ---
+P2 | recv 463 | lost 9 | loss 1.91% | last window 0.00%
+P3 | recv 465 | lost 6 | loss 1.27% | last window 0.00%
+P1 | recv 460 | lost 11 | loss 2.34% | last window 0.00%
+
+--- [SERVER TRAFFIC METRICS] ---
+P2 | recv 563 | lost 9 | loss 1.57% | last window 0.00%
+P3 | recv 566 | lost 6 | loss 1.05% | last window 0.00%
+P1 | recv 561 | lost 11 | loss 1.92% | last window 0.00%
+
+[SERVER] Shutting down.
+
+=== FINAL SUMMARY ===
+{'player': 'P1', 'received': 590, 'lost': 11, 'loss_pct': 1.83, 'lat_min_ms': 12.403, 'lat_avg_ms': 16.564, 'lat_median_ms': 13.69, 'lat_max_ms': 357.965, 'jitter_min_ms': 0.012, 'jitter_avg_ms': 5.289, 'jitter_max_ms': 344.826, 'throughput_kbps': 18.33}
+{'player': 'P2', 'received': 592, 'lost': 9, 'loss_pct': 1.5, 'lat_min_ms': 12.388, 'lat_avg_ms': 16.514, 'lat_median_ms': 13.788, 'lat_max_ms': 358.111, 'jitter_min_ms': 0.003, 'jitter_avg_ms': 4.453, 'jitter_max_ms': 343.642, 'throughput_kbps': 18.4}
+{'player': 'P3', 'received': 594, 'lost': 6, 'loss_pct': 1.0, 'lat_min_ms': 12.365, 'lat_avg_ms': 16.832, 'lat_median_ms': 13.763, 'lat_max_ms': 377.68, 'jitter_min_ms': 0.01, 'jitter_avg_ms': 4.716, 'jitter_max_ms': 364.176, 'throughput_kbps': 18.46}

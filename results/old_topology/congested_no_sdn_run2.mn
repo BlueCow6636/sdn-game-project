@@ -1,0 +1,14 @@
+sh pkill -f game_server.py
+sh pkill iperf3
+hsink iperf3 -s -p 5201 > iperf_server.log 2>&1 &
+hserver python3 -u server/game_server.py --host 10.0.0.100 --port 5000 --ctrl-ip 10.0.0.200 --csv results/congested_no_sdn_run2_packets.csv --summary results/congested_no_sdn_run2_summary.csv > server.log 2>&1 &
+sh sleep 1
+h1 python3 -u client/player.py --id P1 --server-ip 10.0.0.100 --rate 20 --duration 30 > p1.log 2>&1 &
+h2 python3 -u client/player.py --id P2 --server-ip 10.0.0.100 --rate 20 --duration 30 > p2.log 2>&1 &
+h3 python3 traffic/background_traffic.py --server-ip 10.0.0.101 --bandwidth 20M --duration 10 --start-delay 10 > bg.log 2>&1 &
+sh sleep 34
+sh pkill -f game_server.py
+sh sleep 1
+sh pkill iperf3
+sh cat bg.log
+sh python3 analysis/phase_stats.py results/congested_no_sdn_run2_packets.csv

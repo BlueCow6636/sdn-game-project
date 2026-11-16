@@ -1,0 +1,13 @@
+condition,run,phase,received,expected,loss_pct,lat_min_ms,lat_avg_ms,lat_median_ms,lat_max_ms,jitter_min_ms,jitter_avg_ms,jitter_max_ms,throughput_kbps
+congested_sdn_dynamic,1,before,600,600,0.0,12.388,16.282,13.816,139.738,0.007,5.206,126.984,55.7
+congested_sdn_dynamic,1,during,576,600,4.0,12.481,16.19,13.568,144.109,0.008,1.963,131.063,53.69
+congested_sdn_dynamic,1,after,600,600,0.0,12.365,17.422,13.826,377.68,0.003,6.825,364.176,55.9
+congested_sdn_dynamic,1,all,1776,1800,1.33,12.365,16.637,13.744,377.68,0.003,4.689,364.176,55.1
+congested_sdn_dynamic,2,before,600,600,0.0,12.378,22.133,13.905,373.201,0.001,16.342,359.553,55.76
+congested_sdn_dynamic,2,during,578,600,3.67,12.406,16.814,13.508,147.838,0.001,4.6,135.29,54.11
+congested_sdn_dynamic,2,after,600,600,0.0,12.362,17.834,13.828,305.717,0.0,7.51,291.675,56.17
+congested_sdn_dynamic,2,all,1778,1800,1.22,12.362,18.953,13.735,373.201,0.0,9.515,359.553,55.35
+congested_sdn_dynamic,3,before,600,600,0.0,12.464,15.615,13.857,131.035,0.003,3.511,117.01,55.61
+congested_sdn_dynamic,3,during,583,600,2.83,12.456,15.566,13.494,73.917,0.003,1.7,59.432,54.34
+congested_sdn_dynamic,3,after,600,600,0.0,12.464,15.396,13.872,198.668,0.002,3.352,184.61,55.84
+congested_sdn_dynamic,3,all,1783,1800,0.94,12.456,15.525,13.725,198.668,0.002,2.859,184.61,55.26

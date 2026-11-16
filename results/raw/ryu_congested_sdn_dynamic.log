@@ -1,0 +1,33 @@
+loading app controller/sdn_controller.py
+loading app ryu.controller.ofp_handler
+instantiating app controller/sdn_controller.py of GameSDNController
+[MODE] dynamic (game queue 1, link 10.0 Mbps, poll 0.50s, on>=80%, off<50% for 4 polls)
+instantiating app ryu.controller.ofp_handler of OFPHandler
+[CTRL] listening for game-server events on UDP 9999
+[SWITCH JOINED] DPID=1: rules installed (queue prioritization OFF)
+[MONITOR] bottleneck s1-eth5 is OpenFlow port 5 on DPID 1 (capacity 10.0 Mbps)
+[SWITCH JOINED] DPID=2: rules installed (queue prioritization OFF)
+[APP EVENT] P2 registered (10.0.0.2) -> priority-200 rules installed on 2 switches
+[APP EVENT] P3 registered (10.0.0.3) -> priority-200 rules installed on 2 switches
+[APP EVENT] P1 registered (10.0.0.1) -> priority-200 rules installed on 2 switches
+[DYNAMIC] CONGESTION DETECTED: bottleneck at 9.84 Mbps (98% of 10) -> game queue ON
+[APP EVENT] LOSS ALERT P2: 8.8% loss (alert #1)
+[APP EVENT] LOSS ALERT P3: 5.9% loss (alert #1)
+[APP EVENT] LOSS ALERT P1: 10.8% loss (alert #1)
+[DYNAMIC] CONGESTION CLEARED: bottleneck at 0.08 Mbps (1%) -> game queue OFF
+[APP EVENT] P3 registered (10.0.0.3) -> priority-200 rules installed on 2 switches
+[APP EVENT] P1 registered (10.0.0.1) -> priority-200 rules installed on 2 switches
+[APP EVENT] P2 registered (10.0.0.2) -> priority-200 rules installed on 2 switches
+[DYNAMIC] CONGESTION DETECTED: bottleneck at 9.95 Mbps (100% of 10) -> game queue ON
+[APP EVENT] LOSS ALERT P3: 6.9% loss (alert #2)
+[APP EVENT] LOSS ALERT P1: 7.9% loss (alert #2)
+[APP EVENT] LOSS ALERT P2: 7.9% loss (alert #2)
+[DYNAMIC] CONGESTION CLEARED: bottleneck at 0.08 Mbps (1%) -> game queue OFF
+[APP EVENT] P3 registered (10.0.0.3) -> priority-200 rules installed on 2 switches
+[APP EVENT] P2 registered (10.0.0.2) -> priority-200 rules installed on 2 switches
+[APP EVENT] P1 registered (10.0.0.1) -> priority-200 rules installed on 2 switches
+[DYNAMIC] CONGESTION DETECTED: bottleneck at 9.89 Mbps (99% of 10) -> game queue ON
+[APP EVENT] LOSS ALERT P3: 5.9% loss (alert #3)
+[APP EVENT] LOSS ALERT P2: 6.9% loss (alert #3)
+[APP EVENT] LOSS ALERT P1: 6.0% loss (alert #3)
+[DYNAMIC] CONGESTION CLEARED: bottleneck at 0.07 Mbps (1%) -> game queue OFF
